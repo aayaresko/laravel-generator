@@ -1,10 +1,10 @@
 <?php
 
-namespace InfyOm\Generator\Generators\Scaffold;
+namespace aayaresko\Generator\Generators\Scaffold;
 
 use Illuminate\Support\Str;
-use InfyOm\Generator\Common\CommandData;
-use InfyOm\Generator\Generators\BaseGenerator;
+use aayaresko\Generator\Common\CommandData;
+use aayaresko\Generator\Generators\BaseGenerator;
 
 class MenuGenerator extends BaseGenerator
 {

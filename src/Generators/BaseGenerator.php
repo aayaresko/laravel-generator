@@ -1,8 +1,8 @@
 <?php
 
-namespace InfyOm\Generator\Generators;
+namespace aayaresko\Generator\Generators;
 
-use InfyOm\Generator\Utils\FileUtil;
+use aayaresko\Generator\Utils\FileUtil;
 
 class BaseGenerator
 {

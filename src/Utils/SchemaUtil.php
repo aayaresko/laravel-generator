@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\Utils;
+namespace aayaresko\Generator\Utils;
 
 class SchemaUtil
 {

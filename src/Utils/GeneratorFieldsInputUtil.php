@@ -1,8 +1,8 @@
 <?php
 
-namespace InfyOm\Generator\Utils;
+namespace aayaresko\Generator\Utils;
 
-use InfyOm\Generator\Common\GeneratorField;
+use aayaresko\Generator\Common\GeneratorField;
 
 class GeneratorFieldsInputUtil
 {

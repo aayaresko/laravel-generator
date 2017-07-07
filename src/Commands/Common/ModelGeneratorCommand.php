@@ -1,10 +1,10 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Common;
+namespace aayaresko\Generator\Commands\Common;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Common\CommandData;
-use InfyOm\Generator\Generators\ModelGenerator;
+use aayaresko\Generator\Commands\BaseCommand;
+use aayaresko\Generator\Common\CommandData;
+use aayaresko\Generator\Generators\ModelGenerator;
 
 class ModelGeneratorCommand extends BaseCommand
 {

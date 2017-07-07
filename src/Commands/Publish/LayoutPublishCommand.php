@@ -1,8 +1,8 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Publish;
+namespace aayaresko\Generator\Commands\Publish;
 
-use InfyOm\Generator\Utils\FileUtil;
+use aayaresko\Generator\Utils\FileUtil;
 
 class LayoutPublishCommand extends PublishBaseCommand
 {

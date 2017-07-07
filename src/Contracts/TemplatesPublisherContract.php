@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\Contracts;
+namespace aayaresko\Generator\Contracts;
 
 interface TemplatesPublisherContract
 {

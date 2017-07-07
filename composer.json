@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "InfyOm\\Generator\\": "src/"
+            "aayaresko\\Generator\\": "src/"
         },
         "files": [
             "src/helpers.php"
