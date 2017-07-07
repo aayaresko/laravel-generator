@@ -1,10 +1,10 @@
 <?php
 
-namespace InfyOm\Generator\Utils;
+namespace aayaresko\Generator\Utils;
 
 use DB;
-use InfyOm\Generator\Common\GeneratorField;
-use InfyOm\Generator\Common\GeneratorFieldRelation;
+use aayaresko\Generator\Common\GeneratorField;
+use aayaresko\Generator\Common\GeneratorFieldRelation;
 
 class GeneratorForeignKey
 {

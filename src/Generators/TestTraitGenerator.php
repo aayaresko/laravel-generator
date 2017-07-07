@@ -1,10 +1,10 @@
 <?php
 
-namespace InfyOm\Generator\Generators;
+namespace aayaresko\Generator\Generators;
 
-use InfyOm\Generator\Common\CommandData;
-use InfyOm\Generator\Utils\FileUtil;
-use InfyOm\Generator\Utils\GeneratorFieldsInputUtil;
+use aayaresko\Generator\Common\CommandData;
+use aayaresko\Generator\Utils\FileUtil;
+use aayaresko\Generator\Utils\GeneratorFieldsInputUtil;
 
 class TestTraitGenerator extends BaseGenerator
 {

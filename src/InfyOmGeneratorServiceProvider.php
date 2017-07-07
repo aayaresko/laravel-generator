@@ -1,26 +1,26 @@
 <?php
 
-namespace InfyOm\Generator;
+namespace aayaresko\Generator;
 
 use Illuminate\Support\ServiceProvider;
-use InfyOm\Generator\Commands\API\APIControllerGeneratorCommand;
-use InfyOm\Generator\Commands\API\APIGeneratorCommand;
-use InfyOm\Generator\Commands\API\APIRequestsGeneratorCommand;
-use InfyOm\Generator\Commands\API\TestsGeneratorCommand;
-use InfyOm\Generator\Commands\APIScaffoldGeneratorCommand;
-use InfyOm\Generator\Commands\Common\MigrationGeneratorCommand;
-use InfyOm\Generator\Commands\Common\ModelGeneratorCommand;
-use InfyOm\Generator\Commands\Common\RepositoryGeneratorCommand;
-use InfyOm\Generator\Commands\Publish\GeneratorPublishCommand;
-use InfyOm\Generator\Commands\Publish\LayoutPublishCommand;
-use InfyOm\Generator\Commands\Publish\PublishTemplateCommand;
-use InfyOm\Generator\Commands\Publish\VueJsLayoutPublishCommand;
-use InfyOm\Generator\Commands\RollbackGeneratorCommand;
-use InfyOm\Generator\Commands\Scaffold\ControllerGeneratorCommand;
-use InfyOm\Generator\Commands\Scaffold\RequestsGeneratorCommand;
-use InfyOm\Generator\Commands\Scaffold\ScaffoldGeneratorCommand;
-use InfyOm\Generator\Commands\Scaffold\ViewsGeneratorCommand;
-use InfyOm\Generator\Commands\VueJs\VueJsGeneratorCommand;
+use aayaresko\Generator\Commands\API\APIControllerGeneratorCommand;
+use aayaresko\Generator\Commands\API\APIGeneratorCommand;
+use aayaresko\Generator\Commands\API\APIRequestsGeneratorCommand;
+use aayaresko\Generator\Commands\API\TestsGeneratorCommand;
+use aayaresko\Generator\Commands\APIScaffoldGeneratorCommand;
+use aayaresko\Generator\Commands\Common\MigrationGeneratorCommand;
+use aayaresko\Generator\Commands\Common\ModelGeneratorCommand;
+use aayaresko\Generator\Commands\Common\RepositoryGeneratorCommand;
+use aayaresko\Generator\Commands\Publish\GeneratorPublishCommand;
+use aayaresko\Generator\Commands\Publish\LayoutPublishCommand;
+use aayaresko\Generator\Commands\Publish\PublishTemplateCommand;
+use aayaresko\Generator\Commands\Publish\VueJsLayoutPublishCommand;
+use aayaresko\Generator\Commands\RollbackGeneratorCommand;
+use aayaresko\Generator\Commands\Scaffold\ControllerGeneratorCommand;
+use aayaresko\Generator\Commands\Scaffold\RequestsGeneratorCommand;
+use aayaresko\Generator\Commands\Scaffold\ScaffoldGeneratorCommand;
+use aayaresko\Generator\Commands\Scaffold\ViewsGeneratorCommand;
+use aayaresko\Generator\Commands\VueJs\VueJsGeneratorCommand;
 
 class InfyOmGeneratorServiceProvider extends ServiceProvider
 {

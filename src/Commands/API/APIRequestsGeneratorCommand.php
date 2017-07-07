@@ -1,10 +1,10 @@
 <?php
 
-namespace InfyOm\Generator\Commands\API;
+namespace aayaresko\Generator\Commands\API;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Common\CommandData;
-use InfyOm\Generator\Generators\API\APIRequestGenerator;
+use aayaresko\Generator\Commands\BaseCommand;
+use aayaresko\Generator\Common\CommandData;
+use aayaresko\Generator\Generators\API\APIRequestGenerator;
 
 class APIRequestsGeneratorCommand extends BaseCommand
 {

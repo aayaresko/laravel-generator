@@ -1,18 +1,18 @@
 <?php
 
-namespace InfyOm\Generator\Commands\VueJs;
+namespace aayaresko\Generator\Commands\VueJs;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Common\CommandData;
-use InfyOm\Generator\Generators\MigrationGenerator;
-use InfyOm\Generator\Generators\ModelGenerator;
-use InfyOm\Generator\Generators\RepositoryGenerator;
-use InfyOm\Generator\Generators\Scaffold\MenuGenerator;
-use InfyOm\Generator\Generators\VueJs\APIRequestGenerator;
-use InfyOm\Generator\Generators\VueJs\ControllerGenerator;
-use InfyOm\Generator\Generators\VueJs\ModelJsConfigGenerator;
-use InfyOm\Generator\Generators\VueJs\RoutesGenerator;
-use InfyOm\Generator\Generators\VueJs\ViewGenerator;
+use aayaresko\Generator\Commands\BaseCommand;
+use aayaresko\Generator\Common\CommandData;
+use aayaresko\Generator\Generators\MigrationGenerator;
+use aayaresko\Generator\Generators\ModelGenerator;
+use aayaresko\Generator\Generators\RepositoryGenerator;
+use aayaresko\Generator\Generators\Scaffold\MenuGenerator;
+use aayaresko\Generator\Generators\VueJs\APIRequestGenerator;
+use aayaresko\Generator\Generators\VueJs\ControllerGenerator;
+use aayaresko\Generator\Generators\VueJs\ModelJsConfigGenerator;
+use aayaresko\Generator\Generators\VueJs\RoutesGenerator;
+use aayaresko\Generator\Generators\VueJs\ViewGenerator;
 
 class VueJsGeneratorCommand extends BaseCommand
 {

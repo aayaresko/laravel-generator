@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Generators\Scaffold;
+namespace aayaresko\Generator\Generators\Scaffold;
 
 use Illuminate\Support\Str;
-use InfyOm\Generator\Common\CommandData;
+use aayaresko\Generator\Common\CommandData;
 
 class RoutesGenerator
 {

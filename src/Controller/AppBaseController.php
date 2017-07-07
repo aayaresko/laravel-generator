@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Controller;
+namespace aayaresko\Generator\Controller;
 
 use App\Http\Controllers\Controller as Controller;
-use InfyOm\Generator\Utils\ResponseUtil;
+use aayaresko\Generator\Utils\ResponseUtil;
 use Response;
 
 // @TODO This class need to be removed once we release our first version.

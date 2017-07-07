@@ -1,11 +1,11 @@
 <?php
 
-namespace InfyOm\Generator\Generators;
+namespace aayaresko\Generator\Generators;
 
 use File;
 use Illuminate\Support\Str;
-use InfyOm\Generator\Common\CommandData;
-use InfyOm\Generator\Utils\FileUtil;
+use aayaresko\Generator\Common\CommandData;
+use aayaresko\Generator\Utils\FileUtil;
 use SplFileInfo;
 
 class MigrationGenerator extends BaseGenerator

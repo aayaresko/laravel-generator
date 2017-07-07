@@ -1,12 +1,12 @@
 <?php
 
-namespace InfyOm\Generator\Commands\API;
+namespace aayaresko\Generator\Commands\API;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Common\CommandData;
-use InfyOm\Generator\Generators\API\APITestGenerator;
-use InfyOm\Generator\Generators\RepositoryTestGenerator;
-use InfyOm\Generator\Generators\TestTraitGenerator;
+use aayaresko\Generator\Commands\BaseCommand;
+use aayaresko\Generator\Common\CommandData;
+use aayaresko\Generator\Generators\API\APITestGenerator;
+use aayaresko\Generator\Generators\RepositoryTestGenerator;
+use aayaresko\Generator\Generators\TestTraitGenerator;
 
 class TestsGeneratorCommand extends BaseCommand
 {

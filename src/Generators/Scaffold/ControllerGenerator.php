@@ -1,10 +1,10 @@
 <?php
 
-namespace InfyOm\Generator\Generators\Scaffold;
+namespace aayaresko\Generator\Generators\Scaffold;
 
-use InfyOm\Generator\Common\CommandData;
-use InfyOm\Generator\Generators\BaseGenerator;
-use InfyOm\Generator\Utils\FileUtil;
+use aayaresko\Generator\Common\CommandData;
+use aayaresko\Generator\Generators\BaseGenerator;
+use aayaresko\Generator\Utils\FileUtil;
 
 class ControllerGenerator extends BaseGenerator
 {

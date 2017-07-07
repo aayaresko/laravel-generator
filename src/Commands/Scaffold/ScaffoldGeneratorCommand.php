@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Scaffold;
+namespace aayaresko\Generator\Commands\Scaffold;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Common\CommandData;
+use aayaresko\Generator\Commands\BaseCommand;
+use aayaresko\Generator\Common\CommandData;
 
 class ScaffoldGeneratorCommand extends BaseCommand
 {

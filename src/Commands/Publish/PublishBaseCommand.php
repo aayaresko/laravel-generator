@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Publish;
+namespace aayaresko\Generator\Commands\Publish;
 
 use File;
-use InfyOm\Generator\Commands\BaseCommand;
+use aayaresko\Generator\Commands\BaseCommand;
 
 class PublishBaseCommand extends BaseCommand
 {

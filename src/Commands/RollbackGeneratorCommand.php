@@ -1,27 +1,27 @@
 <?php
 
-namespace InfyOm\Generator\Commands;
+namespace aayaresko\Generator\Commands;
 
 use Illuminate\Console\Command;
-use InfyOm\Generator\Common\CommandData;
-use InfyOm\Generator\Generators\API\APIControllerGenerator;
-use InfyOm\Generator\Generators\API\APIRequestGenerator;
-use InfyOm\Generator\Generators\API\APIRoutesGenerator;
-use InfyOm\Generator\Generators\API\APITestGenerator;
-use InfyOm\Generator\Generators\MigrationGenerator;
-use InfyOm\Generator\Generators\ModelGenerator;
-use InfyOm\Generator\Generators\RepositoryGenerator;
-use InfyOm\Generator\Generators\RepositoryTestGenerator;
-use InfyOm\Generator\Generators\Scaffold\ControllerGenerator;
-use InfyOm\Generator\Generators\Scaffold\MenuGenerator;
-use InfyOm\Generator\Generators\Scaffold\RequestGenerator;
-use InfyOm\Generator\Generators\Scaffold\RoutesGenerator;
-use InfyOm\Generator\Generators\Scaffold\ViewGenerator;
-use InfyOm\Generator\Generators\TestTraitGenerator;
-use InfyOm\Generator\Generators\VueJs\ControllerGenerator as VueJsControllerGenerator;
-use InfyOm\Generator\Generators\VueJs\ModelJsConfigGenerator;
-use InfyOm\Generator\Generators\VueJs\RoutesGenerator as VueJsRoutesGenerator;
-use InfyOm\Generator\Generators\VueJs\ViewGenerator as VueJsViewGenerator;
+use aayaresko\Generator\Common\CommandData;
+use aayaresko\Generator\Generators\API\APIControllerGenerator;
+use aayaresko\Generator\Generators\API\APIRequestGenerator;
+use aayaresko\Generator\Generators\API\APIRoutesGenerator;
+use aayaresko\Generator\Generators\API\APITestGenerator;
+use aayaresko\Generator\Generators\MigrationGenerator;
+use aayaresko\Generator\Generators\ModelGenerator;
+use aayaresko\Generator\Generators\RepositoryGenerator;
+use aayaresko\Generator\Generators\RepositoryTestGenerator;
+use aayaresko\Generator\Generators\Scaffold\ControllerGenerator;
+use aayaresko\Generator\Generators\Scaffold\MenuGenerator;
+use aayaresko\Generator\Generators\Scaffold\RequestGenerator;
+use aayaresko\Generator\Generators\Scaffold\RoutesGenerator;
+use aayaresko\Generator\Generators\Scaffold\ViewGenerator;
+use aayaresko\Generator\Generators\TestTraitGenerator;
+use aayaresko\Generator\Generators\VueJs\ControllerGenerator as VueJsControllerGenerator;
+use aayaresko\Generator\Generators\VueJs\ModelJsConfigGenerator;
+use aayaresko\Generator\Generators\VueJs\RoutesGenerator as VueJsRoutesGenerator;
+use aayaresko\Generator\Generators\VueJs\ViewGenerator as VueJsViewGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
