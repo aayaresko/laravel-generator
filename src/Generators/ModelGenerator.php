@@ -29,7 +29,7 @@ class ModelGenerator extends BaseGenerator
     /**
      * ModelGenerator constructor.
      *
-     * @param \InfyOm\Generator\Common\CommandData $commandData
+     * @param \aayaresko\Generator\Common\CommandData $commandData
      */
     public function __construct(CommandData $commandData)
     {
